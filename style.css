@@ -135,11 +135,11 @@
   display: none;
 }
 
-.task-list__task-item.edit-mode .task-item__edit-task {
+.task-item_edit-mode .task-item__edit-task {
   display: inline-block;
   width: 224px;
 }
 
-.task-list__task-item.edit-mode .task-item__task-name {
+.task-item_edit-mode .task-item__task-name {
   display: none;
 }
