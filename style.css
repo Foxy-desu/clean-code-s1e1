@@ -4,34 +4,35 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.header__img {
     width: 100%;
 }
-.aaa .more_inf {
+.header__more-info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.header { text-align: center;
 }
 }
-.centered-main-page-element {
+.centered {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.task-input {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.add-block__task-wrap {
     display: flex;
 }
 ul {
